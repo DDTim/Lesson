@@ -1,0 +1,10 @@
+var canvas = document.getElementById("canv");
+var context = canvas.getContext("2d");
+context.moveTo(20, 30);
+context.lineTo(380, 170);
+context.moveTo(200, 40);
+context.lineTo(350, 100);
+context.moveTo(50, 80);
+context.lineTo(100, 160);
+context.strokeStyle = "#000";
+context.stroke();
